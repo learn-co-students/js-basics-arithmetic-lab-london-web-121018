@@ -21,8 +21,8 @@ if (Number.isInteger(currentAge)){
   ageIsValid = false;
 };
 
-let randomNumber = (Math.random() * 20) + 1;
+let randomNumber = (Math.random() * 20);
 
 let randomInteger = Math.floor(randomNumber);
 
-let randomUserID = newIDFormatting(randomInteger);
+let randomUserID = newIDFormatting(randomInteger) + 1;
